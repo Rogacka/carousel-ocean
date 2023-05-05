@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color:  rgb(159, 245, 238);
+}
+
+.wrap {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 20px;
+}
+
+.btn-wrap {
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.btn {
+    background-color: rgb(46, 247, 237);
+    border-color: blue;
+    color:blue;  
+    cursor: pointer;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.7s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.image {
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 60px blue;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+
+
+    display: none;
+}
+
+.img1 {
+    background-image: url(img/fish.jpg);
+}
+
+.img2 {
+    background-image: url(img/fish1.jpg);
+    
+}
+
+.img3 {
+    background-image: url(img/image.jpg);
+}
+
+.img4 {
+    background-image: url(img/images.jpg);
+}
+
+.img5 {
+    background-image: url(img/jellyfish.jpg);
+}
+
+.img6 {
+    background-image: url(img/fishz.jpeg);
+}
+
+.img7 {
+    background-image: url(img/nemo.jpg);
+}
+
+
